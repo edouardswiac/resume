@@ -24,79 +24,73 @@
 \usepackage[left=0.75in,top=0.6in,right=0.75in,bottom=0.6in]{geometry} % Document margins
 
 \name{Edouard Swiac} % Your name
-\address{1660 Mason street \#3 \\ San Francisco, CA 94133} % Your address
-\address{(415)~$\cdot$~513~$\cdot$~8306 \\ edouard.swiac@gmail.com} % Your phone number and email
-
+\address{415.513.8306 | 1660 Mason street apt. 3 \\ San Francisco CA 94133} % Your address
+\address{\href{mailto:edouard.swiac@gmail.com}{edouard.swiac@gmail.com} | \href{https://github.com/edouardswiac}{github.com/edouardswiac}} % Your phone number and email
 \begin{document}
 
-%----------------------------------------------------------------------------------------
-%	EDUCATION SECTION
-%----------------------------------------------------------------------------------------
 
-\begin{rSection}{Education}
-
-{\bf SUPINFO San Francisco} \hfill {\em November 2011} \\
-M.S. in Computer Science \& Engineering \\
-Thesis: "Integration of software components in an heterogeneous distributed environment" \\
-
-{\bf Dominican University of California, San Rafael} \hfill {\em November 2011} \\
-Certificate in Management and Marketing of IT \\
-
-{\bf SUPINFO Paris} \hfill {\em November 2010} \\
-B.S. in Computer Science \& Engineering \\
-
-\end{rSection}
 
 %----------------------------------------------------------------------------------------
 %	WORK EXPERIENCE SECTION
 %----------------------------------------------------------------------------------------
 
-\begin{rSection}{Experience}
+\begin{rSection}{Work experience}
 
-\begin{rSubsection}{Hotwire, Inc}{Since April 2012}{Software engineer}{San Francisco, CA}
-\item Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec a diam lectus.
-\item Donec et mollis dolor. Praesent et diam eget libero Adobe Coldfusion egestas mattis sit amet vitae augue.
-\item Nam tincidunt congue enim, ut porta lorem Microsoft SQL lacinia consectetur.
-\item Donec ut libero sed arcu vehicula ultricies a non tortor. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-\item Pellentesque auctor nisi id magna consequat JavaScript sagittis.
-\item Aliquam at massa ipsum. Quisque bash bibendum purus convallis nulla ultrices ultricies.
+\begin{rSubsection}{Hotwire.com (an Expedia, Inc company)}{Since April 2012}{Software engineer}{San Francisco, CA}
+\item Platform engineering team of 3, working closely with software architects using the Kanban method
+\item Team successfully extracted and modularized the business rules engine (ILOG) from the monolithic Hotwire code base to a modular maven/Spring 3 decoupled service.
+\item Led the continuous integration effort of business pricing rules' regression testing, from manual testing done by Revenue Management team to an automated job in Jenkins.
+\item Developed a modular JMX client used by monitoring systems in production and QA environments.
+\item Proposed and designed a solution to generate and store Hotwire search data (air/hotel/car queries) in a NoSQL database using BDD, AOP and MongoDB.
+\item Worked with Java 6, Spring 3 (DI, Remoting), maven 3, MongoDB, Jenkins
 \end{rSubsection}
 
 \begin{rSubsection}{2600hz}{April 2011 - April 2012}{Software engineer}{San Francisco, CA}
-\item Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec a diam lectus.
-\item Donec et mollis dolor. Praesent et diam eget libero Adobe Coldfusion egestas mattis sit amet vitae augue.
-\item Nam tincidunt congue enim, ut porta lorem Microsoft SQL lacinia consectetur.
-\item Donec ut libero sed arcu vehicula ultricies a non tortor. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-\item Pellentesque auctor nisi id magna consequat JavaScript sagittis.
-\item Aliquam at massa ipsum. Quisque bash bibendum purus convallis nulla ultrices ultricies.
+\item Various contributions to major features (voicemail, hot desk, call flows) of the open-source, carrier-grade VoIP platform Kazoo.
+\item Built REST APIs on top of CouchDB and respecting REST principles.
+\item Developed integration with Microsoft Lync Server (outbound calling, call forwarding, AMQP bus communications).
+\item Several contributions to a server deployment tool and a gem to consume the platform's services.
+\item Worked with Erlang/OTP, CouchDB, git, ruby.
 \end{rSubsection}
 
 %------------------------------------------------
 
 \begin{rSubsection}{Agendize}{November 2010 - March 2011}{Software engineer - contractor}{Montreal, CA}
-\item Aenean ut gravida lorem. Ut turpis felis, Perl pulvinar a semper sed, adipiscing id dolor.
-\item Curabitur dapibus enim sit amet elit pharetra tincidunt website feugiat nisl imperdiet. Ut convallis AJAX libero in urna ultrices accumsan.
-\item Cum sociis natoque penatibus et magnis dis MySQL parturient montes, nascetur ridiculus mus.
-\item In rutrum accumsan ultricies. Mauris vitae nisi at sem facilisis semper ac in est.
-\item Nullam cursus suscipit nisi, et ultrices justo sodales nec. Fusce venenatis facilisis lectus ac semper.
+\item Partial implementation of RFC 4791 (CalDav) to add synchronization to a calendar feature.
+\item Worked with Java.
 \end{rSubsection}
 
 %------------------------------------------------
 
 \begin{rSubsection}{Sellermania}{July 2010 - October 2010}{Software engineer intern}{Paris, France}
-\item Vivamus PostgreSQL fermentum semper porta. Nunc diam velit PHP, adipiscing ut tristique vitae
-\item Maecenas convallis ullamcorper ultricies stylesheets.
-\item Quisque mi metus, unit tests CSS ornare sit amet fermentum et, tincidunt et orci.
-\item Curabitur venenatis pulvinar tellus gravida ornare. Sed et erat faucibus nunc euismod ultricies ut id
+\item Design and development of an heuristic to weight the pricing strategy of 20 millions items sold on Amazon FR, UK and DE.
+\item Worked with Java, Hibernate 3, MySQL.
 \end{rSubsection}
 
 \begin{rSubsection}{Usine 23}{July 2008 - January 2010}{Software engineer intern}{Paris, France}
-\item Vivamus PostgreSQL fermentum semper porta. Nunc diam velit PHP, adipiscing ut tristique vitae
-\item Maecenas convallis ullamcorper ultricies stylesheets.
-\item Quisque mi metus, unit tests CSS ornare sit amet fermentum et, tincidunt et orci.
-\item Curabitur venenatis pulvinar tellus gravida ornare. Sed et erat faucibus nunc euismod ultricies ut id
+\item Built a PHP middleware to connect several heterogenous ecommerce APIs to the company PHP backend. It performed listings export, orders import, data curation and sales synchronization.
+\item Wrote core business and service classes for the backend. Architected the foundations of the company's internal PHP framework.
+\item Worked with PHP 5.2, MySQL.
 \end{rSubsection}
 
+\end{rSection}
+
+\newpage
+%----------------------------------------------------------------------------------------
+%   EDUCATION SECTION
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}{Education}
+
+{\bf SUPINFO San Francisco, CA} \hfill {\em November 2011} \\
+M.S. in Computer Science \\
+Thesis: "Integration of software components in an heterogeneous distributed environment" \\
+
+{\bf Dominican University of California, San Rafael CA} \hfill {\em November 2011} \\
+Certificate in Management and Marketing of IT \\
+
+{\bf SUPINFO Paris, France} \hfill {\em November 2010} \\
+B.S. in Computer Science \\
 
 \end{rSection}
 
@@ -104,13 +98,14 @@ B.S. in Computer Science \& Engineering \\
 %	TECHNICAL STRENGTHS SECTION
 %----------------------------------------------------------------------------------------
 
-\begin{rSection}{Technical Strengths}
+\begin{rSection}{Technical skills}
 
 \begin{tabular}{ @{} >{\bfseries}l @{\hspace{6ex}} l }
-Computer Languages & Java (Spring/Maven), Python, Erlang/OTP\\
-Protocols \& APIs & XML, JSON, REST \\
+Computer Languages & Java (Spring/Maven), Python, Erlang/OTP, PHP (Zend certified)\\
+Web development & HTML5/CSS3, jQuery. Good sense of design and UI\\
+Protocols \& APIs & XML, JSON, HTTP+REST, AMQP \\
 Databases & MySQL, PostgreSQL, MongoDB, Redis \\
-Tools & Perforce, git, Eclipse, vim
+Other & Perforce/git, Eclipse/Vim. Linux/Mac OS. TDD/BDD. Agile methods.
 \end{tabular}
 
 \end{rSection}
@@ -119,11 +114,16 @@ Tools & Perforce, git, Eclipse, vim
 %	EXAMPLE SECTION
 %----------------------------------------------------------------------------------------
 
-\begin{rSection}{Other interests}
+\begin{rSection}{Personal software projects}
+\item Creator of \url{http://linkstash.net}, a short-term bookmarking web app that runs with Python/Flask, Redis and Heroku.
+\item Founder of \url{http://musicpad.me}, a platform for musicians and music teachers to manage and share their repertoire's music sheets and tablatures. In development.
+\item Submitted French translation of PHP documentation (SVN \#290561).
+\item Arduino pet project: remote controllable heater.
+\end{rSection}
 
-\item Github: https://github.com/edouardswiac.
-\item Creator of Linkstash (www.linkstash.net), a short-term bookmarking service.
-\item Sports: (running and soccer) and music (guitar and bass)
+\begin{rSection}{Interests}
+\item \textbf{Sports} Avid runner and soccer player. Beginner at boxing, interested in golf.
+\item \textbf{Music} Guitar and bass player for over 7 years. Attending music school. Playing in a band.
 \end{rSection}
 
 %----------------------------------------------------------------------------------------
